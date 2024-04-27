@@ -43,11 +43,7 @@ public class oyuncu : MonoBehaviour
         if (pw.IsMine)
         {
 
-            // oyun bittiğinde oyuncuların kontrolünü durdur
-            // 2.oyuncu bağlanmadan ilk bağlanan hareket edemesin.
-            // biri odadan çıkarsa kalan oyuncu hareket edemesin ve istatistikler sıfırlansın
-            // İlk ekranda kullanıcı adına playerpref eklenerek, kullanıcı tekrar geldiğinde seçmiş olduğu
-            // ad oraya otomatik yazılsın yani tekrar tekrar isim seçmesin.
+            
             hareket();
             zipla();
             atesEt();
